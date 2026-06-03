@@ -93,14 +93,16 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.0.0",
     "jest-environment-jsdom": "^30.0.0",
-    "prettier": "^3.1.1"
+    "prettier": "^3.1.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   },
   "author": "GitHub Inc.",
   "engines": {
     "node": ">=22.9.0 <26"
   },
   "templateOSS": {
-    "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
+    "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits by hand may be overwritten.",
     "allowPaths": [
       "cli-cache.json"
     ],
