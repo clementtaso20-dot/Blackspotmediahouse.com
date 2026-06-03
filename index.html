@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Black Spot Media House</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+:root { --brand: #0a0a0a; --accent: #ffd700; --text: #ffffff; }
+.hero { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); padding: 120px 20px; text-align: center; }
+.hero h1 { font-size: 3.5rem; color: var(--accent); margin-bottom: 20px; }
+.hero p { font-size: 1.3rem; color: #b8b8b8; max-width: 700px; margin: 0 auto 40px; }
+.entity-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 60px 20px; max-width: 1200px; margin: 0 auto; }
+.entity-card { background: #16213e; border: 1px solid #ffd700; padding: 40px; border-radius: 12px; transition: transform 0.3s; }
+.entity-card:hover { transform: translateY(-10px); }
+.entity-card h2 { color: #ffd700; font-size: 1.8rem; margin-bottom: 15px; }
+.entity-card p { color: #b8c5d6; line-height: 1.6; margin-bottom: 25px; }
+.btn { display: inline-block; padding: 14px 32px; background: #ffd700; color: #0a0a0a; text-decoration: none; font-weight: 700; border-radius: 6px; }
+.social-hub { background: #0f0f23; padding: 60px 20px; text-align: center; }
+.social-hub h2 { color: #ffd700; font-size: 2rem; margin-bottom: 30px; }
+.social-links { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+.social-links a { color: #fff; text-decoration: none; font-size: 1.1rem; padding: 15px 25px; border: 1px solid #ffd700; border-radius: 8px; transition: all 0.3s; }
+.social-links a:hover { background: #ffd700; color: #0a0a0a; }
+</style>
+</head>
+<body>
+<!-- UNIFIED NAVIGATION — Appears on ALL three sites -->
+<nav class="unified-nav">
+<div class="nav-brand">
+<a href="https://blackspotmedia.co.za">⚡ BLACK SPOT MEDIA</a>
+</div>
+<div class="nav-links">
+<a href="https://blackspotmedia.co.za" class="active">MEDIA HOUSE</a>
+<a href="https://vibeav.com">MAGAZINE</a>
+<a href="https://vibeintheveel.org">FOUNDATION</a>
+<a href="#contact">CONTACT</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>Black Spot Media House</h1>
+<p>We build media that matters. Three entities. One mission. Take the power back to the people.</p>
+<a href="#entities" class="btn">Explore Our World</a>
+</section>
+
+<section id="entities" class="entity-grid">
+<div class="entity-card">
+<h2>⚡ Black Spot Media</h2>
+<p>The house. Media production, brand strategy, digital content. We tell stories that move people.</p>
+<a href="https://blackspotmedia.co.za" class="btn">Enter the House</a>
+</div>
+<div class="entity-card">
+<h2>📖 Vibe AV Magazine</h2>
+<p>The anchor program. The content engine. AR experiences, investigative articles, township voices.</p>
+<a href="https://vibeav.com" class="btn">Read the Magazine</a>
+</div>
+<div class="entity-card">
+<h2>🤝 Vibe in the Veel Foundation</h2>
+<p>A Program of Black Spot Media House. Free financial literacy. Real skills. Better lives.</p>
+<a href="https://vibeintheveel.org" class="btn">Join the Movement</a>
+</div>
+</section>
+
+<section class="social-hub">
+<h2>Social Media Command Center</h2>
+<p style="color:#b8c5d6; margin-bottom:30px;">All handles managed from the house. One voice. Three channels.</p>
+<div class="social-links">
+<a href="https://instagram.com/VibeInTheVeel" target="_blank">📸 Instagram</a>
+<a href="https://tiktok.com/@VibeInTheVeel" target="_blank">🎵 TikTok</a>
+<a href="https://twitter.com/VibeInTheVeel" target="_blank">🐦 X/Twitter</a>
+<a href="https://youtube.com/VibeInTheVeel" target="_blank">📺 YouTube</a>
+<a href="https://facebook.com/VibeInTheVeel" target="_blank">📘 Facebook</a>
+<a href="https://linkedin.com/company/vibeintheveel" target="_blank">💼 LinkedIn</a>
+</div>
+</section>
+
+<footer style="background:#0a0a0a; padding:40px 20px; text-align:center; color:#666;">
+<p>© 2026 Black Spot Media House. All rights reserved.</p>
+<p style="margin-top:10px;">
+<a href="https://vibeintheveel.org" style="color:#ffd700;">Vibe in the Veel Foundation</a> |
+<a href="https://vibeav.com" style="color:#ffd700;">Vibe AV Magazine</a>
+</p>
+</footer>
+</body>
+</html>
